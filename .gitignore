@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+
+# Banco de dados SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend React
+frontend/node_modules/
+frontend/build/
+frontend/.pnp.*
+frontend/.lo কল্যা# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
