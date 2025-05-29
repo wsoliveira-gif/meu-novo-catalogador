@@ -120,4 +120,4 @@ if __name__ == "__main__":
             print("Nenhum dado coletado ou erro na API. Tentando novamente em 5 segundos.")
         
         # Intervalo entre as coletas
-        time.sleep(7)
+        time.sleep(30)
