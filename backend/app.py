@@ -10,6 +10,10 @@ from collections import Counter
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def hello():
+    return "Olá do Flask no PythonAnywhere! Rota de teste funcionando."
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 db_path_absolute = os.path.join(basedir, 'blaze_results.db')
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path_absolute}'
